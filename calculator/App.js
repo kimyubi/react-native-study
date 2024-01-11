@@ -1,16 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import Calculator from './src/Calculator';
 
 export default function App() {
-  const [input, setInput] = useState(0);
-  const [currentOperator, setCurrentOperator] = useState(null);
-  const [result, setResult] = useState(null);
-  const [tmpInput, setTmpInput] = useState(null);
-  const [tmpOperator, setTmpOperator] = useState(null);
-
-
   return (
     <SafeAreaView style={styles.container}>
       <Calculator/>
