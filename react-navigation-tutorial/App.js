@@ -1,9 +1,11 @@
 import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NestedStackNavigator } from './src/NestedStackNavigator';
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native';
+
+
 import { BottomTabNavigator } from './src/BottomTabNavigator';
 import { ScreenA } from './src/ScreenA';
 import { ScreenB } from './src/ScreenB';
